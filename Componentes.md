@@ -519,3 +519,7 @@ Exemplo:
     (Espaço para declarar o componente que irá fazer parte do tour)               
 </TourItem>
 ```
+
+![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/68c2d2d6-01c1-497a-879c-3fe4cea37e46)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
