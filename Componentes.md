@@ -425,7 +425,8 @@ interface ITextInputPesquisaProps extends TextInputProps {
   onChangeText: (value: string) => void;
   onSubmitEditing: () => void;
   handleShowScan?: () => void;
-  han
+  handleCancel?: () => void;
+}
 ```
 
 Exemplo:
