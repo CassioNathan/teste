@@ -46,21 +46,23 @@ link: https://drive.google.com/file/d/1SmIfCVLXfw6vijyByhpu-3kV0hKwop_h/view?usp
 - ```./src/assets/json:``` Possui arquivos download.json e loading.json;
 - ```./src/assets/sounds:``` Possui arquivo beep.mp3;
 
-#### ```./src/components/:```
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### ```./src/components/:``` Lista de todos os componentes na aplicação
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/Amount:
+##### Amount | ./src/components/Amount:
 
-- Componente responsável por exibir o campo de quantidade, juntamente com botões para aumentar ou diminuir essa quantidade.
+Componente responsável por exibir o campo de quantidade, juntamente com botões para aumentar ou diminuir essa quantidade.
 
 Tipagem:
 ```TypeScript
 interface IAmountProps {
-  onAmountChange: (value: number) => void;
-  onSubmitEditing: () => void;
-  initialAmount?: number;
-  parametroTelaEvento: string;
+  onAmountChange: (value: number) => void; // função usada para lidar com a quantidade
+  onSubmitEditing: () => void; // função usada ao pressionar enter com o teclado
+  initialAmount?: number; // valor inicial do componente
+  parametroTelaEvento: string; // Nome da tela para enviar ao google analytics
 }
 ```
 
@@ -82,18 +84,18 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### .src/components/AnimateHeight:
+##### Animate Height | .src/components/AnimateHeight:
 
-- Componente responsavel por lidar com menus colapsaveis.
+Componente responsavel por lidar com menus colapsaveis.
 
 Tipagem:
 ```TypeScript
 type Props = {
-  children?: React.ReactNode;
-  hide?: boolean;
-  onHeightDidAnimate?: (height: number) => void;
-  enterFrom?: 'bottom' | 'top';
-  initialHeight?: number;
+  children?: React.ReactNode; // componente React filho
+  hide?: boolean; // State usado para definir se vai ou não colapsar
+  onHeightDidAnimate?: (height: number) => void; // recebe a altura final para executar uma ultima ação EX: Atuaiizar states
+  enterFrom?: 'bottom' | 'top'; // direção da animação de abertura
+  initialHeight?: number; // altura inicial do componente
 } & React.ComponentProps<typeof MotiView>;
 ```
 
@@ -107,16 +109,16 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/buttons:
+##### Button | ./src/components/buttons:
 
-- Componente responsavel por renderizar o botão padrão da aplicação.
+Componente responsavel por renderizar o botão padrão da aplicação.
 
 Tipagem: 
 ```TypeScript
 interface IButtonProps extends TouchableOpacityProps {
-  title: string;
-  backgroundColor?: string;
-  color?: string;
+  title: string; // titulo do botão
+  backgroundColor?: string; // cor de fundo
+  color?: string; // cor principal
   icon?:
     | "save"
     | "add"
@@ -128,8 +130,8 @@ interface IButtonProps extends TouchableOpacityProps {
     | "order"
     | "cancel"
     | "grouping"
-    | "trash";
-  isBlack?: boolean;
+    | "trash"; // icones disponiveis
+  isBlack?: boolean; 
   isLoading?: boolean;
 }
 ```
@@ -149,9 +151,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/dialogs:
+##### Dialog | ./src/components/dialogs:
 
-- Componente responsavel por renderizar um caixa de dialogo com o usuario
+Componente responsavel por renderizar um caixa de dialogo com o usuario
 
 Tipagem: 
 ```TypeScript
@@ -193,15 +195,15 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/FAB: (
+##### Fab | ./src/components/FAB: (
 
-- Familia de componentes que renderizam um menu flutuante:
+Familia de componentes que renderizam um menu flutuante:
 
 *Exemplo no final*
 
-##### ./src/components/FAB/FabContainer:
+##### Fab Container | ./src/components/FAB/FabContainer:
 
-- Componente responsavel por englobar os FabItens.
+Componente responsavel por englobar os FabItens.
 
 Tipagem: 
 ```TypeScript
@@ -219,9 +221,9 @@ Ex:
 </FabContainer>
 ```
 
-##### ./src/components/FAB/FabItem:
+##### Fab Item | ./src/components/FAB/FabItem:
 
-- Componente que representa os itens no FabContainer.
+Componente que representa os itens no FabContainer.
 
 Tipagem: 
 ```TypeScript
@@ -265,9 +267,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/Footer:
+##### Footer | ./src/components/Footer:
 
-- Componente responsavel por exibir as informações de rodapé, como youtube, instagram, facebook.
+Componente responsavel por exibir as informações de rodapé, como youtube, instagram, facebook.
 
 Tipagem: 
 ```TypeScript
@@ -286,9 +288,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/icons:
+##### Icons | ./src/components/icons:
 
-- Icones declarados na aplicação.
+Icones declarados na aplicação.
 
 Parâmetros: 
 {size: Number, color: String}
@@ -313,9 +315,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/loading:
+##### Loading | ./src/components/loading:
 
-- Componente responsavel por renderizar um overlay de loading:
+Componente responsavel por renderizar um overlay de loading:
 
 Tipagem: 
 ```TypeScript
@@ -334,9 +336,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/modal/ModalCadastroProduto.tsx:
+##### Modal Cadastro de Produto | ./src/components/modal/ModalCadastroProduto.tsx:
 
-- Componente de modal voltado a cadastro de produtos.
+Componente de modal voltado a cadastro de produtos.
 
 Tipagem:
 ```TypeScript
@@ -358,9 +360,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/TextInput/CurrencyInputLc.tsx:
+##### Currency Input LC | ./src/components/TextInput/CurrencyInputLc.tsx:
 
-- Componente responsavel por renderizar um input para inserir quantidade ou valor(R$).
+Componente responsavel por renderizar um input para inserir quantidade ou valor(R$).
 
 Tipagem: 
 ```TypeScript
@@ -400,9 +402,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/TextInput/TextInputLc.tsx:
+##### Text Input LC | ./src/components/TextInput/TextInputLc.tsx:
 
-- Componente responsavel por renderizar input de texto.
+Componente responsavel por renderizar input de texto.
 
 Tipagem:
 ```TypeScript
@@ -455,9 +457,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/TextInput/TextInputLc.tsx:
+##### Text Input Pesquisa | ./src/components/TextInput/TextInputPesquisa.tsx:
 
-- Componente responsavel por renderizar um campo de pesquisa com botão lateral.
+Componente responsavel por renderizar um campo de pesquisa com botão lateral.
 
 Tipagem:
 ```TypeScript
@@ -501,9 +503,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/toolbar/Toolbar.tsx:
+##### ToolBar | ./src/components/toolbar/Toolbar.tsx:
 
-- Componente responsavel por renderizar a toolbar.
+Componente responsavel por renderizar a toolbar.
 
 Tipagem: 
 ```TypeScript
@@ -537,9 +539,9 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ./src/components/Tour/TourItem.tsx:
+##### TourItem | ./src/components/Tour/TourItem.tsx:
 
-- Componente responsavel por renderizar um componente de tour, criando um overlay escurecido e rendeizando o componente que deseja destacar por cima com uma descrição.
+Componente responsavel por renderizar um componente de tour, criando um overlay escurecido e rendeizando o componente que deseja destacar por cima com uma descrição.
 
 Tipagem: 
 ```TypeScript
