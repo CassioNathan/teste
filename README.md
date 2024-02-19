@@ -48,7 +48,7 @@ link: https://drive.google.com/file/d/1SmIfCVLXfw6vijyByhpu-3kV0hKwop_h/view?usp
 
 #### ```./src/components/:```
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### ./src/components/Amount:
 
@@ -80,6 +80,7 @@ Ex:
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/f25c01c4-ba4b-454d-af82-0b26fec7e641)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### .src/components/AnimateHeight:
 
@@ -104,6 +105,7 @@ Ex:
 ```
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/e4215630-4f2d-4861-9a0e-3779b16fb517) ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/ef129a01-d02e-4396-8758-9038cbdc9c1b)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### ./src/components/buttons:
 
@@ -144,6 +146,8 @@ Ex:
 ```
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/23502bf1-251e-4f57-ad7c-6553ec9272da)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### ./src/components/dialogs:
 
@@ -186,6 +190,8 @@ Ex:
 ```
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/a64e398c-f235-4605-8af5-3d6e99434f35)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### ./src/components/FAB: (
 
@@ -257,6 +263,8 @@ Ex:
 
 )
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ##### ./src/components/Footer:
 
 - Componente responsavel por exibir as informações de rodapé, como youtube, instagram, facebook.
@@ -275,6 +283,8 @@ Ex:
 <Footer />
 ```
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/234aead2-69be-43d3-9b35-d0028dd825d0)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### ./src/components/icons:
 
@@ -301,6 +311,8 @@ Ex:
 <Add size={15} color={color} />
 ```
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ##### ./src/components/loading:
 
 - Componente responsavel por renderizar um overlay de loading:
@@ -319,6 +331,8 @@ Ex:
 ```
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/f4d260d6-2cac-412f-965a-8c8aec48c53c)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### ./src/components/modal/ModalCadastroProduto.tsx:
 
@@ -341,6 +355,8 @@ Ex:
 ```
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/9ca7dd96-a950-4513-9ef0-9099a74c1712)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### ./src/components/TextInput/CurrencyInputLc.tsx:
 
@@ -381,6 +397,8 @@ Ex:
 ```
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/e8da34c2-0275-47cf-aa6e-1b34f3d9095f)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### ./src/components/TextInput/TextInputLc.tsx:
 
@@ -435,6 +453,8 @@ Ex:
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/ca356800-4950-4f2d-9c2a-1b1aa3f855ab)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ##### ./src/components/TextInput/TextInputLc.tsx:
 
 - Componente responsavel por renderizar um campo de pesquisa com botão lateral.
@@ -479,6 +499,7 @@ Ex:
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/58886975-b1e0-4642-947a-0b1a86c84c61)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### ./src/components/toolbar/Toolbar.tsx:
 
@@ -514,6 +535,8 @@ Ex:
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/74b4f836-66ce-4f92-bf49-7300810d088b)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ##### ./src/components/Tour/TourItem.tsx:
 
 - Componente responsavel por renderizar um componente de tour, criando um overlay escurecido e rendeizando o componente que deseja destacar por cima com uma descrição.
@@ -544,3 +567,5 @@ Ex:
 ```
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/68c2d2d6-01c1-497a-879c-3fe4cea37e46)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
