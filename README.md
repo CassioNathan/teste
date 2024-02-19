@@ -52,7 +52,7 @@ link: https://drive.google.com/file/d/1SmIfCVLXfw6vijyByhpu-3kV0hKwop_h/view?usp
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Amount | ./src/components/Amount:
+#### Amount | ./src/components/Amount:
 
 Componente responsável por exibir o campo de quantidade, juntamente com botões para aumentar ou diminuir essa quantidade.
 
@@ -66,7 +66,7 @@ interface IAmountProps {
 }
 ```
 
-Ex:
+Exemplo:
 ```JSX
 <Amount
   ref={amountRef}
@@ -84,7 +84,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Animate Height | .src/components/AnimateHeight:
+#### Animate Height | .src/components/AnimateHeight:
 
 Componente responsavel por lidar com menus colapsaveis.
 
@@ -99,7 +99,7 @@ type Props = {
 } & React.ComponentProps<typeof MotiView>;
 ```
 
-Ex:
+Exemplo:
 ```JSX
 <AnimateHeight hide={setIsColapsar}>
   (Espaço para declarar componentes)
@@ -109,7 +109,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Button | ./src/components/buttons:
+#### Button | ./src/components/buttons:
 
 Componente responsavel por renderizar o botão padrão da aplicação.
 
@@ -136,7 +136,7 @@ interface IButtonProps extends TouchableOpacityProps {
 }
 ```
 
-Ex:
+Exemplo:
 ```JSX
 <Button 
   title="Adicionar"
@@ -151,7 +151,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Dialog | ./src/components/dialogs:
+#### Dialog | ./src/components/dialogs:
 
 Componente responsavel por renderizar um caixa de dialogo com o usuario
 
@@ -172,7 +172,7 @@ interface IDialogProps {
 }
 ```
 
-Ex:
+Exemplo:
 ```JSX
 <Dialog
   titulo="Atenção!"
@@ -195,13 +195,13 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Fab | ./src/components/FAB: (
+#### Fab | ./src/components/FAB: (
 
 Familia de componentes que renderizam um menu flutuante:
 
 *Exemplo no final*
 
-##### Fab Container | ./src/components/FAB/FabContainer:
+#### Fab Container | ./src/components/FAB/FabContainer:
 
 Componente responsavel por englobar os FabItens.
 
@@ -214,14 +214,14 @@ interface IFabContainerProps {
 }
 ```
 
-Ex: 
+Exemplo:
 ```JSX
 <FabContainer parametroTelaEvento="Nome da tela para enviar ao google analytics">
   (Espaço para declarar os FabItens)
 </FabContainer>
 ```
 
-##### Fab Item | ./src/components/FAB/FabItem:
+#### Fab Item | ./src/components/FAB/FabItem:
 
 Componente que representa os itens no FabContainer.
 
@@ -248,7 +248,7 @@ interface IFabItemProps {
 }
 ```
 
-Ex: 
+Exemplo:
 ```JSX
   <FabItem
     title={`Nova\nconferência`}
@@ -267,7 +267,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Footer | ./src/components/Footer:
+#### Footer | ./src/components/Footer:
 
 Componente responsavel por exibir as informações de rodapé, como youtube, instagram, facebook.
 
@@ -280,7 +280,7 @@ interface IFooterProps {
 }
 ```
 
-Ex: 
+Exemplo:
 ```JSX
 <Footer />
 ```
@@ -288,7 +288,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Icons | ./src/components/icons:
+#### Icons | ./src/components/icons:
 
 Icones declarados na aplicação.
 
@@ -308,14 +308,14 @@ export const Add = ({ size = 22, color = "#fff" }) => {
 };
 ```
 
-Ex: 
+Exemplo:
 ```JSX
 <Add size={15} color={color} />
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Loading | ./src/components/loading:
+#### Loading | ./src/components/loading:
 
 Componente responsavel por renderizar um overlay de loading:
 
@@ -327,7 +327,7 @@ interface ILoadingScreenProps {
 }
 ```
 
-Ex:
+Exemplo:
 ```JSX
 {isShowLoading && <LoadingScreen descricao="Importando produtos" />}
 ```
@@ -336,7 +336,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Modal Cadastro de Produto | ./src/components/modal/ModalCadastroProduto.tsx:
+#### Modal Cadastro de Produto | ./src/components/modal/ModalCadastroProduto.tsx:
 
 Componente de modal voltado a cadastro de produtos.
 
@@ -348,7 +348,7 @@ interface IModalCadastroProdutoProps {
 }
 ```
 
-Ex:
+Exemplo:
 ```JSX
 <ModalCadastroProduto
     modalizeRef={modalCadastroProdutoRef}
@@ -360,7 +360,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Currency Input LC | ./src/components/TextInput/CurrencyInputLc.tsx:
+#### Currency Input LC | ./src/components/TextInput/CurrencyInputLc.tsx:
 
 Componente responsavel por renderizar um input para inserir quantidade ou valor(R$).
 
@@ -383,7 +383,7 @@ interface ICurrencyInputLcProps extends CurrencyInputProps {
 }
 ```
 
-Ex: 
+Exemplo:
 ```JSX
 <CurrencyInputLc
     type="quantidade"
@@ -402,7 +402,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Text Input LC | ./src/components/TextInput/TextInputLc.tsx:
+#### Text Input LC | ./src/components/TextInput/TextInputLc.tsx:
 
 Componente responsavel por renderizar input de texto.
 
@@ -438,7 +438,7 @@ interface ITextInputLcProps extends TextInputProps {
 }
 ```
 
-Ex: 
+Exemplo:
 ```TypeScript
 <TextInputLc
     ref={inputRet}
@@ -457,7 +457,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### Text Input Pesquisa | ./src/components/TextInput/TextInputPesquisa.tsx:
+#### Text Input Pesquisa | ./src/components/TextInput/TextInputPesquisa.tsx:
 
 Componente responsavel por renderizar um campo de pesquisa com botão lateral.
 
@@ -476,7 +476,7 @@ interface ITextInputPesquisaProps extends TextInputProps {
   han
 ```
 
-Ex:
+Exemplo:
 ```JSX
 <TextInputPesquisa
     ref={TextInputPesquisaRef}
@@ -503,7 +503,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### ToolBar | ./src/components/toolbar/Toolbar.tsx:
+#### ToolBar | ./src/components/toolbar/Toolbar.tsx:
 
 Componente responsavel por renderizar a toolbar.
 
@@ -521,7 +521,7 @@ interface IToolbarProps {
   backgroundColor?: string;
 }
 ```
-Ex:
+Exemplo:
 ```JSX
 <Toolbar
     titulo="Configurações"
@@ -539,7 +539,7 @@ Ex:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### TourItem | ./src/components/Tour/TourItem.tsx:
+#### TourItem | ./src/components/Tour/TourItem.tsx:
 
 Componente responsavel por renderizar um componente de tour, criando um overlay escurecido e rendeizando o componente que deseja destacar por cima com uma descrição.
 
@@ -561,7 +561,7 @@ interface ITourItem {
 }
 ```
 
-Ex:
+Exemplo:
 ```JSX
 <TourItem posicaoNoTour={7}>
     (Espaço para declarar o componente que irá fazer parte do tour)               
