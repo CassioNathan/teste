@@ -18,7 +18,7 @@ link: https://drive.google.com/file/d/145RKIOhMsyhlXIwf7gkNg4rGPtIXW-a3/view?usp
 - ```Versão do Node.js:``` versão 16.15.1 |
 link: https://drive.google.com/file/d/1SmIfCVLXfw6vijyByhpu-3kV0hKwop_h/view?usp=sharing | pasta compartilhada: "\\\\192.168.1.16\lc_desenvolvimento\FABRICIO\node-v16.15.1-x64.msi".
 
-## Estrutura de Codigo:
+## Estrutura de Projeto:
 
 - ```./src/@types:``` Armazena toda a tipagem das variaveis responsaveis pela navegação;
 - ```./src/assets:``` Armazena todos os arquivos utilizados. EX: Imagens, Audios, Arquivos de Texto;
