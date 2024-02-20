@@ -38,7 +38,7 @@ Exemplo:
 
 #### Animate Height | .src/components/AnimateHeight:
 
-Componente responsavel por lidar com menus colapsaveis.
+Componente responsável por lidar com menus colapsáveis.
 
 Tipagem:
 ```TypeScript
@@ -63,7 +63,7 @@ Exemplo:
 
 #### Button | ./src/components/buttons:
 
-Componente responsavel por renderizar o botão padrão da aplicação.
+Componente responsável por renderizar o botão padrão da aplicação.
 
 Tipagem: 
 ```TypeScript
@@ -105,7 +105,7 @@ Exemplo:
 
 #### Dialog | ./src/components/dialogs:
 
-Componente responsavel por renderizar um caixa de dialogo com o usuario
+Componente responsável por renderizar uma caixa de diálogo com o usuário.
 
 Tipagem: 
 ```TypeScript
@@ -155,7 +155,7 @@ Familia de componentes que renderizam um menu flutuante:
 
 #### Fab Container | ./src/components/FAB/FabContainer:
 
-Componente responsavel por englobar os FabItens.
+Componente responsável por englobar os FabItens.
 
 Tipagem: 
 ```TypeScript
@@ -221,7 +221,7 @@ Exemplo:
 
 #### Footer | ./src/components/Footer:
 
-Componente responsavel por exibir as informações de rodapé, como youtube, instagram, facebook.
+Componente responsável por exibir as informações de rodapé, como YouTube, Instagram e Facebook.
 
 Tipagem: 
 ```TypeScript
@@ -269,7 +269,7 @@ Exemplo:
 
 #### Loading | ./src/components/loading:
 
-Componente responsavel por renderizar um overlay de loading:
+Componente responsável por renderizar um overlay de carregamento.
 
 Tipagem: 
 ```TypeScript
@@ -314,7 +314,7 @@ Exemplo:
 
 #### Currency Input LC | ./src/components/TextInput/CurrencyInputLc.tsx:
 
-Componente responsavel por renderizar um input para inserir quantidade ou valor(R$).
+Componente responsável por renderizar um campo de entrada para inserir quantidade ou valor (R$).
 
 Tipagem: 
 ```TypeScript
@@ -356,7 +356,7 @@ Exemplo:
 
 #### Text Input LC | ./src/components/TextInput/TextInputLc.tsx:
 
-Componente responsavel por renderizar input de texto.
+Componente responsável por renderizar um campo de entrada de texto.
 
 Tipagem:
 ```TypeScript
@@ -458,7 +458,7 @@ Exemplo:
 
 #### ToolBar | ./src/components/toolbar/Toolbar.tsx:
 
-Componente responsavel por renderizar a toolbar.
+Componente responsável por renderizar a barra de ferramentas (toolbar).
 
 Tipagem: 
 ```TypeScript
@@ -494,7 +494,7 @@ Exemplo:
 
 #### TourItem | ./src/components/Tour/TourItem.tsx:
 
-Componente responsavel por renderizar um componente de tour, criando um overlay escurecido e rendeizando o componente que deseja destacar por cima com uma descrição.
+Componente responsável por renderizar um tour, criando um overlay escurecido e exibindo o componente que deseja destacar por cima, juntamente com uma descrição.
 
 Tipagem: 
 ```TypeScript
