@@ -1,6 +1,6 @@
 # LC Coletor de Dados V2
 
-O LC Coletor de Dados V2 é a segunda versão do nosso aplicativo IOS/Android voltado para a conferência de produtos/estoque, desenvolvido para facilitar e agilizar esse processo. Ele possibilita a importação de um arquivo de conferência seguindo o modelo de montagem <CODIGO_INTERNO, CODIGO_DE_BARRAS, PRODUTO_NOME>, sendo possível também definir essas opções nas configurações do aplicativo para melhor se adaptar ao seu caso de uso.
+O LC Coletor de Dados V2 é a segunda versão do nosso aplicativo IOS/Android voltado para a conferência de produtos/estoque, desenvolvido para facilitar e agilizar esse processo. Ele possibilita a importação de um arquivo de conferência seguindo o modelo de montagem ```<CODIGO_INTERNO, CODIGO_DE_BARRAS, PRODUTO_NOME>```, sendo possível também definir essas opções nas configurações do aplicativo para melhor se adaptar ao seu caso de uso.
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/fe619daf-da26-49a3-93c0-7647daeee0a2) ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/eb6534f8-70ff-436b-b07f-b5b30649e44b)
 
