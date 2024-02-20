@@ -34,4 +34,4 @@ link: https://drive.google.com/file/d/1SmIfCVLXfw6vijyByhpu-3kV0hKwop_h/view?usp
 - ```./src/App.tsx:``` Arquivo de montagem do aplicativo.
 
 Detalhes sobre os componentes:
-https://github.com/CassioNathan/teste/blob/main/Componentes.md
+https://github.com/CassioNathan/teste/blob/main/Componentes%20-%20LC%20Coletor%20de%20Dados.md
