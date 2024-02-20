@@ -391,7 +391,7 @@ interface ITextInputLcProps extends TextInputProps {
 ```
 
 Exemplo:
-```TypeScript
+```JSX
 <TextInputLc
     ref={inputRet}
     value={valorNoCampo}
@@ -479,12 +479,12 @@ Exemplo:
 <Toolbar
     titulo="Configurações"
     onPress={() => {
-        goBack();
+        funcaoParaOBotãoEsquerdo();
     }}
     iconName="arrow-back"
     showIconRight={true}
 >
-*Opcional*(Espaço para adicionar componente filho)
+*Opcional*(Espaço para adicionar componente filho para o botão direito)
 </ToolBar>
 ```
 
