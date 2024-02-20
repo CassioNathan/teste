@@ -1,6 +1,6 @@
 # LC Coletor de Dados V2
 
-O LC Coletor de Dados V2 é a segunda imaginação de nosso aplicativo IOS/Android voltado a conferência de produtos/estoque pensado para facilitar e agilizar esse processo, tambem possibilitando importar um arquivo de conferência seguindo o modelo de mntagem ```<CODIGO_INTERNO, CODIGO_DE_BARRAS. PRODUTO_NOME>``` sendo possivel tambem definir essas opções nas configurações do aplicativo para melhor se adaptar ao seu caso de uso
+O LC Coletor de Dados V2 é a segunda versão do nosso aplicativo IOS/Android voltado para a conferência de produtos/estoque, desenvolvido para facilitar e agilizar esse processo. Ele possibilita a importação de um arquivo de conferência seguindo o modelo de montagem <CODIGO_INTERNO, CODIGO_DE_BARRAS, PRODUTO_NOME>, sendo possível também definir essas opções nas configurações do aplicativo para melhor se adaptar ao seu caso de uso.
 
 ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/fe619daf-da26-49a3-93c0-7647daeee0a2) ![image](https://github.com/lc-sistemas/LC_Coletor_de_dados_APP_V2/assets/147434228/eb6534f8-70ff-436b-b07f-b5b30649e44b)
 
@@ -20,17 +20,17 @@ link: https://drive.google.com/file/d/1SmIfCVLXfw6vijyByhpu-3kV0hKwop_h/view?usp
 
 ## Estrutura de Projeto:
 
-- ```./src/@types:``` Armazena toda a tipagem das variaveis responsaveis pela navegação;
-- ```./src/assets:``` Armazena todos os arquivos utilizados. EX: Imagens, Audios, Arquivos de Texto;
-- ```./src/components:``` Armazena todos os componentes globais;
-- ```./src/databases:``` Armazena todos os arquivos relacionados a banco de dados;
-- ```./src/interfaces:``` Armazena todas as interfaces globais de tipagem;
+- ```./src/@types:``` Armazena toda a tipagem das variáveis responsáveis pela navegação.
+- ```./src/assets:``` Armazena todos os arquivos utilizados, por exemplo, imagens, áudios e arquivos de texto.
+- ```./src/components:``` Armazena todos os componentes globais.
+- ```./src/databases:``` Armazena todos os arquivos relacionados ao banco de dados.
+- ```./src/interfaces:``` Armazena todas as interfaces globais de tipagem.
 - ```./src/provider:``` Armazena todas os providers disponiveis;
-- ```./src/routes:``` Armazena todos os metodos de rotas;
-- ```./src/screens:``` Armazena todas as telas e seus componentes exclusivos;
-- ```./src/services:``` Armazena os serviços externos;
-- ```./src/storage:``` Armazena os arquivos responsaveis pelo armazeamento(Cache);
-- ```./src/util:``` Armazena todas as funções utilitarios e outros metodos;
+- ```./src/routes:``` Armazena todos os métodos de rotas.
+- ```./src/screens:``` Armazena todas as telas e seus componentes exclusivos.
+- ```./src/services:``` Armazena os serviços externos.
+- ```./src/storage:``` Armazena os arquivos responsáveis pelo armazenamento (Cache).
+- ```./src/util:``` Armazena todas as funções utilitárias e outros métodos.
 - ```./src/App.tsx:``` Arquivo de montagem do aplicativo.
 
 Detalhes sobre os componentes:
