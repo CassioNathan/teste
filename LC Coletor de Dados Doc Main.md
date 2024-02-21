@@ -33,7 +33,7 @@ link: https://drive.google.com/file/d/1SmIfCVLXfw6vijyByhpu-3kV0hKwop_h/view?usp
 - ```./src/util:``` Armazena todas as funções utilitárias e outros métodos.
 - ```./src/App.tsx:``` Arquivo de montagem do aplicativo.
 
-Detalhes sobre componentes:
+Detalhes sobre Componentes:
 https://github.com/CassioNathan/teste/blob/main/Componentes%20-%20LC%20Coletor%20de%20Dados.md
 
 Detalhes sobre Databases:
